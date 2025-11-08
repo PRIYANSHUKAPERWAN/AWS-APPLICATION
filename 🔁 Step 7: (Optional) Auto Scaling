@@ -1,0 +1,7 @@
+Create an Auto Scaling Group linked to your ELB:
+
+Launch template: same EC2 setup
+
+Desired capacity: 2
+
+Scaling policy: CPU > 70% → add instance
