@@ -1,0 +1,4 @@
+git clone <your-github-repo-url>
+cd fullstack-app/backend
+npm install
+npm start
