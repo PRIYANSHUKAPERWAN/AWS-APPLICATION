@@ -1,0 +1,2 @@
+cd ..
+mv frontend/build backend/
