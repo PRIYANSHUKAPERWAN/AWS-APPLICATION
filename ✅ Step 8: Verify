@@ -1,0 +1,5 @@
+Open your ELB DNS → app should load successfully.
+
+Stop one EC2 → still accessible (proves high availability).
+
+Monitor load distribution via Target Groups.
