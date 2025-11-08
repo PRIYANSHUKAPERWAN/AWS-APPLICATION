@@ -1,0 +1,11 @@
+Go to EC2 → Load Balancers → Create Load Balancer
+
+Select Application Load Balancer
+
+Scheme: Internet-facing
+
+Add listener: HTTP (port 80)
+
+Create Target Group → Add both EC2 instances.
+
+Review & create the ELB.
