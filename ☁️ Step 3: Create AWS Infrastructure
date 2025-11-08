@@ -1,0 +1,16 @@
+1️⃣ Create a VPC
+
+Go to VPC → Create VPC
+
+CIDR: 10.0.0.0/16
+
+2️⃣ Create Subnets
+
+Public Subnet 1 → 10.0.1.0/24
+
+Public Subnet 2 → 10.0.2.0/24 (for second EC2)
+
+3️⃣ Create and attach an Internet Gateway (IGW)
+4️⃣ Configure Route Table
+
+Add route: 0.0.0.0/0 → IGW
