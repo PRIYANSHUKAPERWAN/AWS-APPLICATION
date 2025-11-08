@@ -1,0 +1,21 @@
+Go to EC2 → Launch Instance
+
+Amazon Linux 2 / Ubuntu 22.04
+
+Instance type: t2.micro
+
+Configure network:
+
+Use your created VPC and public subnet
+
+Security Group:
+
+Allow:
+
+Port 22 (SSH)
+
+Port 80 (HTTP)
+
+Port 5000 (Backend, optional)
+
+Launch the instance.
